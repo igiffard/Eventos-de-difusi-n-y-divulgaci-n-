@@ -1,0 +1,6 @@
+{
+  "name": "Calendario de Eventos y Registro Histórico",
+  "description": "Calendario interactivo con vistas de día, semana, mes y año, registro histórico de actividades, estadísticas de asistencia, recordatorios automáticos, sincronización con GitHub y vista previa para impresión en PDF o Google Sites.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
