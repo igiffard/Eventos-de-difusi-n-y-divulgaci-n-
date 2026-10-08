@@ -50,6 +50,15 @@ jobs:
           git commit -m "deploy: build optimizado para GitHub Pages (${GITHUB_SHA::7})"
           git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:gh-pages
 
+      - name: Auto-enable GitHub Pages on gh-pages branch
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api -X POST /repos/${GITHUB_REPOSITORY}/pages \
+            -f "source[branch]=gh-pages" \
+            -f "source[path]=/" || true
+
       - name: Configure GitHub Pages
         id: pages_config
         continue-on-error: true
