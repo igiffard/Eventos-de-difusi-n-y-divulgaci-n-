@@ -485,6 +485,161 @@ Horario de actividad: lunes 19 y martes 20 de octubre, de 11:00 a 14:00 horas (c
     badgeColor: '#0d9488',
     createdAt: '2026-10-08T11:52:00Z',
     updatedAt: '2026-10-08T11:52:00Z'
+  },
+  {
+    id: 'evt-potenciales-a-egresar-2026',
+    title: 'Ceremonia de Potenciales a Egresar',
+    organizer: 'UABC / Facultad de Ciencias Marinas (FCM)',
+    location: 'Por confirmar (Tradicionalmente: Gimnasio de Valle Dorado)',
+    date: '2026-11-25',
+    startTime: '09:00',
+    endTime: '12:00',
+    description: `La ceremonia de potenciales a egresar se realizará el miércoles 25 de noviembre. El lugar y la hora quedan pendientes. Tradicionalmente, se nos cita en el gimnasio de Valle Dorado a las 9:00 a.m.
+
+En la ceremonia se solicita que vayan únicamente los estudiantes. Cada facultad lleva una camisa de vestir de diferente color. A la FCM nos corresponde en color azul marino.`,
+    additionalNotes: `• Lugar y hora: Quedan pendientes de confirmación oficial (tradicionalmente se cita en el Gimnasio de Valle Dorado a las 9:00 a.m.).
+• Asistencia: Se solicita que acudan únicamente los estudiantes potenciales a egresar.
+• Código de vestimenta: Cada facultad lleva una camisa de vestir de diferente color. A la Facultad de Ciencias Marinas (FCM) le corresponde camisa de vestir en color azul marino.`,
+    category: 'Institucional',
+    status: 'pendiente',
+    attendance: {
+      projectedAttendees: 30,
+      actualAttendees: undefined,
+      delegationNames: ['Estudiantes Potenciales a Egresar - FCM'],
+      notes: 'Únicamente estudiantes. Camisa de vestir color azul marino (distintivo FCM). Cita tradicional: 9:00 a.m. en el Gimnasio de Valle Dorado (lugar y hora oficiales por confirmar).'
+    },
+    reminder: {
+      enabled: true,
+      timing: '2_days',
+      notified: false
+    },
+    badgeColor: '#1e3a8a',
+    createdAt: '2026-10-09T17:53:00Z',
+    updatedAt: '2026-10-09T17:53:00Z'
+  },
+  {
+    id: 'evt-xli-encuentro-divulgacion-cientifica-2026-dia1',
+    title: 'XLI Encuentro Nacional de Divulgación Científica - Día 1',
+    organizer: 'Sociedad Mexicana de Física (SMF) / Congreso Nacional de Física',
+    location: 'Museo Caracol, Ensenada',
+    date: '2026-10-12',
+    startTime: '09:00',
+    endTime: '17:00',
+    description: `XLI Encuentro Nacional de Divulgación Científica que se celebrará del lunes 12 al viernes 15 de octubre en el Museo Caracol.
+
+El Encuentro es parte del Congreso Nacional de Física que se celebrará en las mismas fechas en Ensenada, siendo un evento satélite de la Sociedad Mexicana de Física.`,
+    additionalNotes: `• Contexto científico: Evento satélite de la Sociedad Mexicana de Física (SMF), parte del Congreso Nacional de Física celebrado en las mismas fechas en Ensenada.
+• Sede: Museo Caracol, Ensenada.
+• Fechas: Del 12 al 15 de octubre de 2026.`,
+    category: 'Científico',
+    status: 'confirmado',
+    attendance: {
+      projectedAttendees: 10,
+      actualAttendees: undefined,
+      delegationNames: ['Sociedad Mexicana de Física (SMF)', 'Comunidad de Divulgación Científica'],
+      notes: 'Día 1 (12 de octubre). Evento satélite del Congreso Nacional de Física en el Museo Caracol.'
+    },
+    reminder: {
+      enabled: true,
+      timing: '1_day',
+      notified: false
+    },
+    badgeColor: '#2563eb',
+    createdAt: '2026-10-09T20:15:00Z',
+    updatedAt: '2026-10-09T20:15:00Z'
+  },
+  {
+    id: 'evt-xli-encuentro-divulgacion-cientifica-2026-dia2',
+    title: 'XLI Encuentro Nacional de Divulgación Científica - Día 2',
+    organizer: 'Sociedad Mexicana de Física (SMF) / Congreso Nacional de Física',
+    location: 'Museo Caracol, Ensenada',
+    date: '2026-10-13',
+    startTime: '09:00',
+    endTime: '17:00',
+    description: `XLI Encuentro Nacional de Divulgación Científica que se celebrará del lunes 12 al viernes 15 de octubre en el Museo Caracol.
+
+El Encuentro es parte del Congreso Nacional de Física que se celebrará en las mismas fechas en Ensenada, siendo un evento satélite de la Sociedad Mexicana de Física.`,
+    additionalNotes: `• Contexto científico: Evento satélite de la Sociedad Mexicana de Física (SMF), parte del Congreso Nacional de Física celebrado en las mismas fechas en Ensenada.
+• Sede: Museo Caracol, Ensenada.
+• Fechas: Del 12 al 15 de octubre de 2026.`,
+    category: 'Científico',
+    status: 'confirmado',
+    attendance: {
+      projectedAttendees: 10,
+      actualAttendees: undefined,
+      delegationNames: ['Sociedad Mexicana de Física (SMF)', 'Comunidad de Divulgación Científica'],
+      notes: 'Día 2 (13 de octubre). Evento satélite del Congreso Nacional de Física en el Museo Caracol.'
+    },
+    reminder: {
+      enabled: true,
+      timing: '1_day',
+      notified: false
+    },
+    badgeColor: '#2563eb',
+    createdAt: '2026-10-09T20:15:00Z',
+    updatedAt: '2026-10-09T20:15:00Z'
+  },
+  {
+    id: 'evt-xli-encuentro-divulgacion-cientifica-2026-dia3',
+    title: 'XLI Encuentro Nacional de Divulgación Científica - Día 3',
+    organizer: 'Sociedad Mexicana de Física (SMF) / Congreso Nacional de Física',
+    location: 'Museo Caracol, Ensenada',
+    date: '2026-10-14',
+    startTime: '09:00',
+    endTime: '17:00',
+    description: `XLI Encuentro Nacional de Divulgación Científica que se celebrará del lunes 12 al viernes 15 de octubre en el Museo Caracol.
+
+El Encuentro es parte del Congreso Nacional de Física que se celebrará en las mismas fechas en Ensenada, siendo un evento satélite de la Sociedad Mexicana de Física.`,
+    additionalNotes: `• Contexto científico: Evento satélite de la Sociedad Mexicana de Física (SMF), parte del Congreso Nacional de Física celebrado en las mismas fechas en Ensenada.
+• Sede: Museo Caracol, Ensenada.
+• Fechas: Del 12 al 15 de octubre de 2026.`,
+    category: 'Científico',
+    status: 'confirmado',
+    attendance: {
+      projectedAttendees: 10,
+      actualAttendees: undefined,
+      delegationNames: ['Sociedad Mexicana de Física (SMF)', 'Comunidad de Divulgación Científica'],
+      notes: 'Día 3 (14 de octubre). Evento satélite del Congreso Nacional de Física en el Museo Caracol.'
+    },
+    reminder: {
+      enabled: true,
+      timing: '1_day',
+      notified: false
+    },
+    badgeColor: '#2563eb',
+    createdAt: '2026-10-09T20:15:00Z',
+    updatedAt: '2026-10-09T20:15:00Z'
+  },
+  {
+    id: 'evt-xli-encuentro-divulgacion-cientifica-2026-dia4',
+    title: 'XLI Encuentro Nacional de Divulgación Científica - Día 4',
+    organizer: 'Sociedad Mexicana de Física (SMF) / Congreso Nacional de Física',
+    location: 'Museo Caracol, Ensenada',
+    date: '2026-10-15',
+    startTime: '09:00',
+    endTime: '17:00',
+    description: `XLI Encuentro Nacional de Divulgación Científica que se celebrará del lunes 12 al viernes 15 de octubre en el Museo Caracol.
+
+El Encuentro es parte del Congreso Nacional de Física que se celebrará en las mismas fechas en Ensenada, siendo un evento satélite de la Sociedad Mexicana de Física.`,
+    additionalNotes: `• Contexto científico: Evento satélite de la Sociedad Mexicana de Física (SMF), parte del Congreso Nacional de Física celebrado en las mismas fechas en Ensenada.
+• Sede: Museo Caracol, Ensenada.
+• Fechas: Del 12 al 15 de octubre de 2026.`,
+    category: 'Científico',
+    status: 'confirmado',
+    attendance: {
+      projectedAttendees: 10,
+      actualAttendees: undefined,
+      delegationNames: ['Sociedad Mexicana de Física (SMF)', 'Comunidad de Divulgación Científica'],
+      notes: 'Día 4 y clausura (15 de octubre). Evento satélite del Congreso Nacional de Física en el Museo Caracol.'
+    },
+    reminder: {
+      enabled: true,
+      timing: '1_day',
+      notified: false
+    },
+    badgeColor: '#2563eb',
+    createdAt: '2026-10-09T20:15:00Z',
+    updatedAt: '2026-10-09T20:15:00Z'
   }
 ];
 
