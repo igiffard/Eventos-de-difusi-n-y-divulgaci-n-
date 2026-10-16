@@ -640,6 +640,70 @@ El Encuentro es parte del Congreso Nacional de Física que se celebrará en las 
     badgeColor: '#2563eb',
     createdAt: '2026-10-09T20:15:00Z',
     updatedAt: '2026-10-09T20:15:00Z'
+  },
+  {
+    id: 'evt-jornadas-salud-spsu-uabc-2026-dia1',
+    title: 'Jornadas de la Salud 2026 SPSU-UABC (Valle Dorado)',
+    organizer: 'SPSU-UABC (Servicios Psicológicos y de Salud Universitaria)',
+    location: 'UABC Unidad Valle Dorado, Ensenada',
+    date: '2026-10-27',
+    startTime: '08:00',
+    endTime: '13:00',
+    description: `Jornadas de la Salud 2026 SPSU-UABC en la Unidad Valle Dorado.
+
+Atención en salud preventiva, revisiones médicas, asesoría psicológica y promoción del bienestar integral para estudiantes, docentes y personal universitario.`,
+    additionalNotes: `• Fechas del evento: 27 de octubre en Valle Dorado y 28 de octubre en Punta Morro.
+• Horario: 8:00 a 13:00 horas.
+• Sede: UABC Unidad Valle Dorado.
+• Organiza: Servicios Psicológicos y de Salud Universitaria (SPSU-UABC).`,
+    category: 'Institucional',
+    status: 'confirmado',
+    attendance: {
+      projectedAttendees: 40,
+      actualAttendees: undefined,
+      delegationNames: ['Servicios Psicológicos y de Salud Universitaria (SPSU)', 'Comunidad Universitaria'],
+      notes: 'Día 1: Jornada de Salud en Unidad Valle Dorado, de 8:00 a 13:00 horas.'
+    },
+    reminder: {
+      enabled: true,
+      timing: '1_day',
+      notified: false
+    },
+    badgeColor: '#059669',
+    createdAt: '2026-10-16T14:00:00Z',
+    updatedAt: '2026-10-16T14:00:00Z'
+  },
+  {
+    id: 'evt-jornadas-salud-spsu-uabc-2026-dia2',
+    title: 'Jornadas de la Salud 2026 SPSU-UABC (Punta Morro)',
+    organizer: 'SPSU-UABC (Servicios Psicológicos y de Salud Universitaria)',
+    location: 'UABC Unidad Punta Morro, Ensenada',
+    date: '2026-10-28',
+    startTime: '08:00',
+    endTime: '13:00',
+    description: `Jornadas de la Salud 2026 SPSU-UABC en la Unidad Punta Morro.
+
+Servicios integrales de salud preventiva, chequeos clínicos, orientación psicológica y actividades de bienestar universitario en el campus costero.`,
+    additionalNotes: `• Fechas del evento: 27 de octubre en Valle Dorado y 28 de octubre en Punta Morro.
+• Horario: 8:00 a 13:00 horas.
+• Sede: UABC Unidad Punta Morro.
+• Organiza: Servicios Psicológicos y de Salud Universitaria (SPSU-UABC).`,
+    category: 'Institucional',
+    status: 'confirmado',
+    attendance: {
+      projectedAttendees: 40,
+      actualAttendees: undefined,
+      delegationNames: ['Servicios Psicológicos y de Salud Universitaria (SPSU)', 'Facultad de Ciencias Marinas / Punta Morro'],
+      notes: 'Día 2: Jornada de Salud en Unidad Punta Morro, de 8:00 a 13:00 horas.'
+    },
+    reminder: {
+      enabled: true,
+      timing: '1_day',
+      notified: false
+    },
+    badgeColor: '#059669',
+    createdAt: '2026-10-16T14:00:00Z',
+    updatedAt: '2026-10-16T14:00:00Z'
   }
 ];
 
