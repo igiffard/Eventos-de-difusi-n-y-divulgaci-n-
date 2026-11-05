@@ -855,8 +855,123 @@ Exhibición y degustación de productos acuáticos, muestra de proyectos estudia
     badgeColor: '#0d9488',
     createdAt: '2026-11-04T17:51:00Z',
     updatedAt: '2026-11-04T17:51:00Z'
+  },
+  {
+    id: 'evt-charla-previa-pvvc-matutina-2026',
+    title: 'Charla Previa Informativa de PVVC (Turno Matutino)',
+    organizer: 'Coordinación de Prácticas Profesionales y PVVC - FCM UABC',
+    location: 'Facultad de Ciencias Marinas, UABC',
+    date: '2026-11-19',
+    startTime: '11:00',
+    endTime: '12:00',
+    description: `Charla informativa previa sobre los Programas de Vinculación con Valor en Créditos (PVVC) y Prácticas Profesionales (PP).
+
+Sesión matutina dirigida a estudiantes interesados y potenciales a realizar estancias profesionales y proyectos de vinculación comunitaria.`,
+    additionalNotes: `• Sesión: Turno Matutino (11:00 a 12:00 horas).
+• Fecha: Jueves 19 de noviembre de 2026.
+• Sesión vespertina disponible el mismo día de 16:00 a 17:00 horas.
+• Evento previo preparatorio rumbo al Foro de PVVC (25-26 de noviembre).
+• Dirigido a: Estudiantes potenciales a tomar PVVC y Prácticas Profesionales.`,
+    category: 'Académico',
+    status: 'confirmado',
+    attendance: {
+      projectedAttendees: 45,
+      actualAttendees: undefined,
+      delegationNames: [
+        'Coordinación de PVVC y Prácticas Profesionales FCM',
+        'Estudiantes convocados (Turno Matutino)'
+      ],
+      notes: 'Sesión informativa presencial en aula audiovisual / salón asignado.'
+    },
+    reminder: {
+      enabled: true,
+      timing: '1_day',
+      notified: false
+    },
+    badgeColor: '#6366f1',
+    createdAt: '2026-11-05T13:58:00Z',
+    updatedAt: '2026-11-05T13:58:00Z'
+  },
+  {
+    id: 'evt-charla-previa-pvvc-vespertina-2026',
+    title: 'Charla Previa Informativa de PVVC (Turno Vespertino)',
+    organizer: 'Coordinación de Prácticas Profesionales y PVVC - FCM UABC',
+    location: 'Facultad de Ciencias Marinas, UABC',
+    date: '2026-11-19',
+    startTime: '16:00',
+    endTime: '17:00',
+    description: `Charla informativa previa sobre los Programas de Vinculación con Valor en Créditos (PVVC) y Prácticas Profesionales (PP).
+
+Sesión vespertina dirigida a estudiantes interesados y potenciales a realizar estancias profesionales y proyectos de vinculación comunitaria.`,
+    additionalNotes: `• Sesión: Turno Vespertino (16:00 a 17:00 horas).
+• Fecha: Jueves 19 de noviembre de 2026.
+• Sesión matutina previa impartida de 11:00 a 12:00 horas.
+• Evento previo preparatorio rumbo al Foro de PVVC (25-26 de noviembre).
+• Dirigido a: Estudiantes potenciales a tomar PVVC y Prácticas Profesionales.`,
+    category: 'Académico',
+    status: 'confirmado',
+    attendance: {
+      projectedAttendees: 40,
+      actualAttendees: undefined,
+      delegationNames: [
+        'Coordinación de PVVC y Prácticas Profesionales FCM',
+        'Estudiantes convocados (Turno Vespertino)'
+      ],
+      notes: 'Sesión informativa presencial en aula audiovisual / salón asignado.'
+    },
+    reminder: {
+      enabled: true,
+      timing: '1_day',
+      notified: false
+    },
+    badgeColor: '#6366f1',
+    createdAt: '2026-11-05T13:58:00Z',
+    updatedAt: '2026-11-05T13:58:00Z'
+  },
+  {
+    id: 'evt-foro-pvvc-estancias-profesionales-2026',
+    title: 'Foro de PVVC y Ruta Rápida a las Estancias Profesionales V.2.0',
+    organizer: 'Coordinación de Prácticas Profesionales y PVVC - FCM UABC',
+    location: 'Facultad de Ciencias Marinas, UABC (Campus El Sauzal / Punta Morro)',
+    date: '2026-11-26',
+    startTime: '09:00',
+    endTime: '13:00',
+    description: `Foro institucional de PVVC y vinculación a estancias profesionales:
+
+• 09:00 - 11:00: Foro de PVVC (participan estudiantes de PVVC, PP, UR, Asesores Académicos y Tutores; se invita a potenciales a tomar PVVC).
+• 11:00 - 11:30: Tips de empleabilidad (dirigida a estudiantes potenciales a realizar PVVC).
+• 11:30 - 13:00: Ruta rápida a las estancias profesionales V.2.0 (dirigida a estudiantes a realizar PVVC y vinculación directa).`,
+    additionalNotes: `• Fecha programada: Jueves 26 de noviembre de 2026 (Fechas de referencia: Miércoles 25 o Jueves 26 de noviembre).
+• Horario general: 09:00 a 13:00 horas.
+• Agenda del evento:
+  - 09:00 a 11:00: Foro de PVVC (participación de estudiantes de PVVC, Prácticas Profesionales, Unidades Receptoras, Asesores Académicos y Tutores).
+  - 11:00 a 11:30: Tips de empleabilidad para estudiantes potenciales a PVVC.
+  - 11:30 a 13:00: Ruta rápida a las estancias profesionales V.2.0 (acercamiento profesional y vinculación).
+• Charlas previas: Realizadas el Jueves 19 de noviembre (11:00-12:00 y 16:00-17:00).`,
+    category: 'Académico',
+    status: 'confirmado',
+    attendance: {
+      projectedAttendees: 85,
+      actualAttendees: undefined,
+      delegationNames: [
+        'Estudiantes de PVVC, PP y UR',
+        'Asesores Académicos y Tutores',
+        'Estudiantes Potenciales a tomar PVVC',
+        'Representantes de Unidades Receptoras'
+      ],
+      notes: 'Espacio de diálogo, exposición de experiencias y orientación a estancias y empleabilidad.'
+    },
+    reminder: {
+      enabled: true,
+      timing: '1_day',
+      notified: false
+    },
+    badgeColor: '#4f46e5',
+    createdAt: '2026-11-05T13:58:00Z',
+    updatedAt: '2026-11-05T13:58:00Z'
   }
 ];
+
 
 
 
