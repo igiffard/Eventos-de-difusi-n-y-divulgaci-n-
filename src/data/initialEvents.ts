@@ -704,6 +704,159 @@ Servicios integrales de salud preventiva, chequeos clínicos, orientación psico
     badgeColor: '#059669',
     createdAt: '2026-10-16T14:00:00Z',
     updatedAt: '2026-10-16T14:00:00Z'
+  },
+  {
+    id: 'evt-dia-mujer-nina-ciencia-2027-caracol',
+    title: 'Día Internacional de la Mujer y la Niña en la Ciencia 2027',
+    organizer: 'Caracol Museo de Ciencias',
+    location: 'Caracol Museo de Ciencias, Ensenada',
+    date: '2027-02-13',
+    startTime: '10:00',
+    endTime: '16:00',
+    description: `Participación en el evento conmemorativo del Día Internacional de la Mujer y la Niña en la Ciencia en el Museo Caracol.
+
+Actividades demostrativas, talleres científicos, charlas interactivas y exhibición de proyectos para impulsar las vocaciones científicas y tecnológicas en niñas y jóvenes.`,
+    additionalNotes: `• Convocante: Museo Caracol (Caracol Museo de Ciencias, Ensenada).
+• Fecha: Sábado 13 de febrero de 2027.
+• Horario: 10:00 a 16:00 horas (10:00 am a 4:00 pm).
+• Objetivo: Fomento a las vocaciones STEM y difusión de la labor de investigadoras y estudiantes universitarias.`,
+    category: 'Científico',
+    status: 'confirmado',
+    attendance: {
+      projectedAttendees: 15,
+      actualAttendees: undefined,
+      delegationNames: ['Investigadoras, Docentes y Estudiantes', 'Comité de Divulgación Científica'],
+      notes: 'Montaje de módulo interactivo y actividades experimentales de 10:00 a 16:00 horas.'
+    },
+    reminder: {
+      enabled: true,
+      timing: '1_week',
+      notified: false
+    },
+    badgeColor: '#9333ea',
+    createdAt: '2026-10-19T09:26:00Z',
+    updatedAt: '2026-10-19T09:26:00Z'
+  },
+  {
+    id: 'evt-examen-piloto-egreso-biotecnologia-acuacultura-2026',
+    title: 'Examen Piloto de Egreso de la Licenciatura en Biotecnología en Acuacultura',
+    organizer: 'Facultad de Ciencias Marinas - Coordinación de Biotecnología en Acuacultura',
+    location: 'Facultad de Ciencias Marinas, UABC',
+    date: '2026-11-19',
+    startTime: '10:00',
+    endTime: '14:00',
+    description: `Aplicación del Examen Piloto de Egreso de la Licenciatura en Biotecnología en Acuacultura.
+
+Evaluación diagnóstica institucional para estudiantes potenciales a egresar de la carrera.
+• Responsable: Dr. Fernando Barreto Curiel.
+• Apoyo: Dra. Alicia Abadía.
+• Soporte técnico: Mtro. Juan Manuel Wagner.`,
+    additionalNotes: `• Fecha: Jueves 19 de noviembre de 2026.
+• Horario: 10:00 a 14:00 horas.
+• Responsable: Dr. Fernando Barreto Curiel.
+• Apoyo: Dra. Alicia Abadía.
+• Soporte técnico: Mtro. Juan Manuel Wagner.
+• Programa Educativo: Licenciatura en Biotecnología en Acuacultura.`,
+    category: 'Académico',
+    status: 'confirmado',
+    attendance: {
+      projectedAttendees: 25,
+      actualAttendees: undefined,
+      delegationNames: [
+        'Dr. Fernando Barreto Curiel (Responsable)',
+        'Dra. Alicia Abadía (Apoyo)',
+        'Mtro. Juan Manuel Wagner (Soporte Técnico)'
+      ],
+      notes: 'Aplicación del examen piloto en laboratorio de cómputo / aula asignada.'
+    },
+    reminder: {
+      enabled: true,
+      timing: '1_day',
+      notified: false
+    },
+    badgeColor: '#0284c7',
+    createdAt: '2026-11-03T09:30:00Z',
+    updatedAt: '2026-11-03T09:30:00Z'
+  },
+  {
+    id: 'evt-examen-piloto-egreso-oceanologia-2026',
+    title: 'Examen Piloto de Egreso de Oceanología',
+    organizer: 'Facultad de Ciencias Marinas - Coordinación de Oceanología',
+    location: 'Facultad de Ciencias Marinas, UABC',
+    date: '2026-11-20',
+    startTime: '10:00',
+    endTime: '14:00',
+    description: `Aplicación del Examen Piloto de Egreso de la Licenciatura en Oceanología.
+
+Evaluación diagnóstica institucional para estudiantes potenciales a egresar de la carrera.
+• Responsable: Dra. Diana Arenas Islas.
+• Apoyo: Dr. Jorge Manuel López Calderón.
+• Soporte técnico: Mtro. Juan Manuel Wagner.`,
+    additionalNotes: `• Fecha: Viernes 20 de noviembre de 2026.
+• Horario: 10:00 a 14:00 horas.
+• Responsable: Dra. Diana Arenas Islas.
+• Apoyo: Dr. Jorge Manuel López Calderón.
+• Soporte técnico: Mtro. Juan Manuel Wagner.
+• Programa Educativo: Licenciatura en Oceanología.`,
+    category: 'Académico',
+    status: 'confirmado',
+    attendance: {
+      projectedAttendees: 30,
+      actualAttendees: undefined,
+      delegationNames: [
+        'Dra. Diana Arenas Islas (Responsable)',
+        'Dr. Jorge Manuel López Calderón (Apoyo)',
+        'Mtro. Juan Manuel Wagner (Soporte Técnico)'
+      ],
+      notes: 'Aplicación del examen piloto en laboratorio de cómputo / aula asignada.'
+    },
+    reminder: {
+      enabled: true,
+      timing: '1_day',
+      notified: false
+    },
+    badgeColor: '#0284c7',
+    createdAt: '2026-11-03T09:30:00Z',
+    updatedAt: '2026-11-03T09:30:00Z'
+  },
+  {
+    id: 'evt-dia-mundial-acuacultura-expo-productos-2026',
+    title: 'Día Mundial de la Acuacultura y Expo Productos Acuáticos 2026',
+    organizer: 'Facultad de Ciencias Marinas - Licenciatura en Biotecnología en Acuacultura, UABC',
+    location: 'Andador Universitario, Campus El Sauzal / FCM - UABC',
+    date: '2026-11-27',
+    startTime: '12:00',
+    endTime: '16:00',
+    description: `Celebración del Día Mundial de la Acuacultura y realización de la Expo Productos Acuáticos 2026.
+
+Exhibición y degustación de productos acuáticos, muestra de proyectos estudiantiles, difusión de biotecnología y acuacultura sustentable, y vinculación con la comunidad universitaria en el Andador Universitario.`,
+    additionalNotes: `• Sede: Andador Universitario (Campus El Sauzal / FCM - UABC).
+• Fecha: Viernes 27 de noviembre de 2026.
+• Horario: 12:00 a 16:00 horas (12:00 pm a 4:00 pm).
+• Motivo: Conmemoración del Día Mundial de la Acuacultura y Expo de productos acuáticos 2026.
+• Dirigido a: Comunidad universitaria, docentes, investigadores y público general.`,
+    category: 'Académico',
+    status: 'confirmado',
+    attendance: {
+      projectedAttendees: 150,
+      actualAttendees: undefined,
+      delegationNames: [
+        'Comité Organizador de Biotecnología en Acuacultura',
+        'Estudiantes y Docentes de la FCM',
+        'Expositores de Productos Acuáticos'
+      ],
+      notes: 'Instalación de stands, mesas de exhibición y módulos demostrativos en el Andador Universitario.'
+    },
+    reminder: {
+      enabled: true,
+      timing: '1_day',
+      notified: false
+    },
+    badgeColor: '#0d9488',
+    createdAt: '2026-11-04T17:51:00Z',
+    updatedAt: '2026-11-04T17:51:00Z'
   }
 ];
+
+
 
